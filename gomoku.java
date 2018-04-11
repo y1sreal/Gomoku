@@ -22,11 +22,11 @@ public class gomoku {
         boolean sPlayer = false;
         if (args.length == 1) {
             if (!args[0].equals("single"))
-                System.out.println(ANSI_CYAN + "A Gomoku Game by Nicholas@UIUC.\n\n" +
+                System.out.println(ANSI_CYAN + "A Gomoku Game by Yiliu@UIUC.\n\n" +
                         "USAGE: gomoku [OPTIONS] ...\n" +
                         "To activate single player mode, use argument 1.\n" +
-                        "For bugs report please touch " + ANSI_YELLOW + ANSI_BOLD +
-                        "chenkai3@illinois.edu" + ANSI_RESET + ANSI_CYAN +
+                        "For bugs report please contact " + ANSI_YELLOW + ANSI_BOLD +
+                        "yiliut2@illinois.edu" + ANSI_RESET + ANSI_CYAN +
                         ".\n======================================================\n\n" + ANSI_RESET);
             else sPlayer = true;
         }
